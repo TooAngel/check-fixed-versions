@@ -1,10 +1,13 @@
 {
   "name": "check-fixed-versions",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "CI check for fixed versions in the package.json",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "check-fixed-versions": "./bin/check-fixed-versions.js"
   },
   "repository": {
     "type": "git",
